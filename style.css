@@ -1,0 +1,138 @@
+body {
+    background: black;
+    margin: 0px;
+}
+
+.firstline {
+    color: #999;
+    transition: 2s;
+    font-size: 44px;
+    line-height: 31.6px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 6.5px;
+    text-align: center;
+}
+
+.firstline :hover {
+    color: #db4f3d;
+}
+
+.secondline {
+    color: #999;
+    margin-bottom: 100px;
+    line-height: 20px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1px;
+    margin-left: 20px;
+}
+
+.line {
+    align-items: center;
+    width: 90%;
+    align-self: center;
+    margin-top: 43px;
+    color: #b31515bd;
+    border: 0px solid rgba(0, 0, 0, 0.663);
+    box-shadow: 0px 0px 1px 1px rgba(255, 253, 253, 0.171);
+}
+
+.navstyle ul {
+    color: white;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 28px;
+    letter-spacing: 0.9px;
+}
+
+.navstyle li:hover {
+    cursor: pointer;
+    color: #db4f3d;
+}
+
+.navstyle li {
+    padding: 20PX;
+}
+
+.firstimage {
+    width: 100%;
+}
+
+.imagediv {
+    margin-bottom: 170px;
+}
+
+.firstsentence {
+    color: #999;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35.2px;
+    letter-spacing: 0.6px;
+    font-weight: 1000;
+}
+
+.fstsentence {
+    margin-bottom: 37px;
+}
+
+.ssecondsent {
+    color: #999;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35.2px;
+    letter-spacing: 0.6px;
+    font-weight: 1000;
+}
+
+.secondimage {
+    width: 60%;
+    padding-left: 21%;
+    margin-top: 43px;
+}
+
+.downone {
+    height: 7vw;
+    width: 30px;
+}
+
+.iconpack {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    margin-top: 1vw;
+}
+
+.iconpack img {
+    width: 50px;
+    height: 50px;
+    scale: .7;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.downtwo {
+    height: 19vw;
+    width: 30px;
+}
+
+.last {
+    color: #999;
+    text-align: center;
+}
+
+.last span:hover {
+    color: #db4f3d;
+    text-decoration: underline;
+    transition: 1s;
+}
